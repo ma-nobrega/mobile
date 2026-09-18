@@ -15,6 +15,8 @@ npm run android
 npm run web
 ```
 
+Para acessar no navegador, abra [http://localhost:19006](http://localhost:19006) após executar `npm run web`.
+
 ## Estrutura
 
 ```text
@@ -38,6 +40,8 @@ Comece editando `src/screens/HomeScreen.js`.
 - `expo-secure-store`: armazenamento local seguro (por exemplo, token de login).
 - `@react-native-async-storage/async-storage`: armazenamento local simples.
 - `react-native-safe-area-context` e `react-native-screens`: dependências da navegação e layout nativo.
+
+O projeto já usa `SafeAreaProvider` e `SafeAreaView` de `react-native-safe-area-context`, evitando a API depreciada do React Native.
 
 ### Exemplo de ícone
 
