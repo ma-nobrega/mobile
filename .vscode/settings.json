@@ -1,0 +1,8 @@
+{
+  // Desliga o texto fantasma cinza (sugestao automatica da IA)
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false
+}
